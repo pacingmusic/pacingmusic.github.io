@@ -1,0 +1,84 @@
+@import "vars";
+
+.Homepage {
+  max-width: 830px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-self: center;
+  width: 100%;
+  padding: $padding-large 0;
+  z-index: 1;
+
+  .WindowBlock {
+    margin-bottom: $padding-large;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  $padding: $padding-medium;
+
+  @include mobile() {
+    flex-direction: column;
+  }
+
+  .intro-pic {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+    padding: $padding;
+    font-family: $font-headers;
+    font-weight: bold;
+
+    &--pic {
+      width: 100%;
+      height: auto;
+
+      @include mobile() {
+        max-width: 300px;
+      }
+    }
+
+    &__name {
+      font-family: $font-headers;
+      font-size: 2em;
+      margin: 18px 0 12px;
+    }
+
+    &__desc {
+      font-family: $font-headers;
+      margin-bottom: 6px;
+    }
+  }
+
+  .intro-text-box {
+    display: flex;
+    flex-grow: 3;
+    flex-flow: column wrap;
+    padding: $padding $padding $padding 0;
+
+    @include mobile() {
+      padding: $padding;
+    }
+
+    p {
+      margin-block-start: $padding-small;
+      margin-block-end: $padding-small;
+    }
+
+    div {
+      display: flex;
+      flex-flow: column wrap;
+      padding: $padding-medium $padding-large;
+      background: $white;
+      box-shadow: inset 0px 0px 0px 9px #22222287;
+    }
+  }
+}

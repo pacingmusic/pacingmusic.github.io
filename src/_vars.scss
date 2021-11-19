@@ -1,0 +1,47 @@
+$black: #222;
+$white: #fff;
+$grey-light: #bfbfbf;
+$grey-mid: #bfbfbf;
+$brand-primary: #660678;
+$brand-blue: #0034BB;
+$brand-green: #3B8964;
+
+$bg-app-header: $white;
+$text-headers: #fff;
+$text-body: $black;
+$window-bg: $grey-light;
+
+$border-chunky: 4px;
+
+$font-body: 'Helvetica Neue', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+$font-headers: 'IBM Plex Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+monospace;
+
+$font-size-icons: 13px;
+
+$padding-large: 25px;
+$padding-medium: 20px;
+$padding-small: 10px;
+
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobile {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

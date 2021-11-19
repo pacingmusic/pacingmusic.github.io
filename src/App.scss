@@ -1,0 +1,139 @@
+@import "vars";
+
+$header-height: 40px;
+
+.App {
+  text-align: center;
+  background: $black;
+  min-height: 100vh;
+  background-image: url("./pattern.png");
+  background-repeat: repeat;
+  background-size: 50%;
+  background-position: top center;
+
+  @include mobile() {
+    background-size: 90%;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: $bg-app-header;
+  min-height: $header-height;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  font-size: 16px;
+  color: $text-body;
+  font-family: $font-headers;
+  font-weight: bold;
+  padding: 0 20px;
+  z-index: 10;
+
+  .header-item {
+    margin-right: 20px;
+    align-self: center;
+  }
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-size: 16px;
+  color: $text-body;
+  font-family: $font-headers;
+  font-weight: bold;
+  padding-top: $header-height + $padding-small;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.big-icon {
+  $size: 100px;
+  $size-mobile: 90x;
+  background: $white;
+  width: $size;
+  height: $size;
+  border: $border-chunky solid $black;
+  border-radius: 100%;
+  text-align: center;
+  color: $text-body;
+  display: flex;
+
+  @include mobile() {
+    width: $size-mobile;
+    height: $size-mobile;
+  }
+
+  img {
+    width: 85%;
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+}
+
+.icon-text {
+  font-family: $font-headers;
+  font-weight: bold;
+  text-align: center;
+  color: $text-body;
+  text-decoration: none;
+}
+
+.links {
+  padding: $padding-medium;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  @include mobile() {
+    flex-direction: column;
+  }
+}
+
+.mp3 {
+  @include mobile() {
+    margin-bottom: $padding-medium;
+  }
+}
+
+.text-box-large {
+  font-family: $font-headers;
+  background: $white;
+  padding: $padding-large;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer {
+  color: $text-headers;
+  font-size: 80%;
+
+  p {
+    margin: 0 auto;
+  }
+}

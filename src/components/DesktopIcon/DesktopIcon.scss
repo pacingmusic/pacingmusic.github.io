@@ -1,0 +1,37 @@
+@import "../../vars";
+
+$size: 70px;
+$bg: transparentize($white, .2);
+
+.DesktopIcon {
+  position: absolute;
+  text-align: center;
+  z-index: 0;
+
+  &__icon {
+    img {
+      width: $size - 8px;
+      height: auto;
+    }
+  }
+
+  &__img {
+    img {
+      outline: $border-chunky solid $bg;
+      background: $bg;
+      width: $size;
+      height: auto;
+    }
+  }
+
+  &__name {
+    color: $text-headers;
+    font-size: $font-size-icons;
+    margin: $padding-small 0;
+  }
+
+  @include mobile() {
+    display: none;
+  }
+
+}

@@ -1,0 +1,52 @@
+@import "../../vars";
+
+@mixin color($color) {
+  .WindowBlock__header {
+    background: $color;
+  }
+  .WindowBlock__body {
+    border-color: $color;
+  }
+}
+
+.WindowBlock {
+  text-align: left;
+  padding: 0 $padding-medium;
+
+  &__header {
+    color: $text-headers;
+    font-family: $font-headers;
+    padding: 10px 10px 0 15px;
+
+    h1 {
+      font-size: 1.3em;
+      margin: 0;
+      display: inline-block;
+    }
+
+    &__icons {
+      float: right;
+      height: 20px;
+    }
+  }
+
+  &__body {
+    background: $window-bg;
+    border: 10px solid;
+    font-family: $font-body;
+    font-weight: normal;
+  }
+
+  &.purple {
+    @include color($brand-primary);
+  }
+
+  &.blue {
+    @include color($brand-blue);
+  }
+
+  &.green {
+    @include color($brand-green);
+  }
+}
+
