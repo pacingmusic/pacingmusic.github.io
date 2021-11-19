@@ -5,7 +5,7 @@ import ReactGA from 'react-ga';
 
 function App() {
 
-    const TRACKING_ID = "G-WCJWLMBS95";
+    const TRACKING_ID = "UA-149504089-2";
     ReactGA.initialize(TRACKING_ID);
     ReactGA.pageview("/");
 
