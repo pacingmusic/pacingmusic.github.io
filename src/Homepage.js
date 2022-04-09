@@ -38,9 +38,6 @@ function Homepage() {
                             <p>
                                 My debut mixtape "hatemail" comes out Friday, May 13! “hatemail” is a manifesto of adult angst. It pokes fun at how ridiculous it would sound if you said the mean stuff in your head out loud.
                             </p>
-                            {/*<p>*/}
-                                {/*I love to connect with other invisible internet musicians and collaborate remotely. Feel free to reach out!*/}
-                            {/*</p>*/}
                         </div>
                     </div>
                 </div>
