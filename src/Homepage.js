@@ -30,7 +30,7 @@ function Homepage() {
                             <p>
                                 Pacing is a project where I get to try on a bunch of different characters and see what they have
                                 to say. Most of them are profane, self-obsessed, shameless, unreliable narrators… I guess a
-                                little bit of the real me always manages to slip in.
+                                little bit of the real me always manages to slip in...
                             </p>
                             <p>
                                 My writing has been described as “tongue firmly planted in cheek” (Surviving the Golden Age, 2022), an “off-kilter and wonderfully weird world” (CLOUT, 2022), and “I don’t get it” (multiple sources).
