@@ -40,9 +40,10 @@
     &--pic {
       width: 100%;
       height: auto;
+      max-width: 500px;
 
       @include mobile() {
-        max-width: 300px;
+        max-width: 250px;
       }
     }
 
