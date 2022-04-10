@@ -10,6 +10,7 @@ import pandora from './images/pandora.png';
 import instagram from './images/instagram.png';
 import youtube from './images/youtube.png';
 import twitter from './images/twitter.png';
+import tiktok from './images/tiktok.png';
 import hatemail from './images/cover_hatemail-front--webres.jpeg';
 
 function Homepage() {
@@ -17,7 +18,7 @@ function Homepage() {
         <div className="Homepage">
 
             {/*Intro*/}
-            <WindowBlock header={'Welcome!'}>
+            <WindowBlock header={'Welcome to my little world'}>
                 <div className={'intro'}>
                     <div className={'intro-pic'}>
                         <img src={headshot} className={'intro-pic--pic'}/>
@@ -40,7 +41,7 @@ function Homepage() {
                                 My writing has been described as “tongue firmly planted in cheek” (Surviving the Golden Age, 2022), an “off-kilter and wonderfully weird world” (CLOUT, 2022), and “I don’t get it” (multiple sources).
                             </p>
                             <p>
-                                My debut mixtape <a href={'https://distrokid.com/hyperfollow/pacing/hatemail'}>hatemail</a> comes out Friday, May 13! “hatemail” is a manifesto of adult angst. It pokes fun at how ridiculous it would sound if you said the mean stuff in your head out loud.
+                                My debut mixtape "<a href={'https://distrokid.com/hyperfollow/pacing/hatemail'}>hatemail</a>" comes out Friday, May 13! “hatemail” is a manifesto of adult angst. It pokes fun at how ridiculous it would sound if you said the mean stuff in your head out loud.
                             </p>
                         </div>
                     </div>
@@ -48,7 +49,7 @@ function Homepage() {
             </WindowBlock>
 
             {/*Links*/}
-            <WindowBlock header={'Find My Music'} color={'blue'}>
+            <WindowBlock header={'Find my music'} color={'blue'}>
                 <div className={'links'}>
                     <BigLink name='bandcamp' img={bandcamp} link={'https://pacingmusic.bandcamp.com'} />
                     <BigLink name='spotify' img={spotify} link={'https://open.spotify.com/artist/7mJOp9EcXEdAH6TL36flXw?si=CNLQNti2RWS1EOWVD17USQ'} />
@@ -59,7 +60,7 @@ function Homepage() {
             </WindowBlock>
 
             {/*Intro*/}
-            <WindowBlock header={'hatemail'}>
+            <WindowBlock header={'My debut mixtape: hatemail'}>
                 <div className={'message'}>
                     <div className={'message_sidebar'}>
                         <div className={'message_sidebar_item'}>
@@ -92,7 +93,8 @@ function Homepage() {
                     </div>
                     <div className={'message_body'}>
                         <div className={'message_body_subject'}>
-                            Subject: <span>About hatemail</span>
+                            Subject: <span className={'subjectline'}>about hatemail</span>
+                            <span className={'date'}>May 13, 2022</span>
                         </div>
                         <div className={'message_body_email'}>
                             <p>
@@ -108,7 +110,7 @@ function Homepage() {
                                 {/*“hatemail” was recorded with love in my home studio (“the fortress of songitude") with the help of my ex-music-theorist husband Ben and our two cats, who are professional sound engineers. The result is an indie-pop soundscape of anxiety, with ubiquitous foley and a cruel-but-angelic backing vocals of those pesky voices in your head.*/}
                             {/*</p>*/}
                             <p>
-                                I like to think this is the mixtape you would make for the person you hate most. &lt;3
+                                I like to think this is the <a href={'https://open.spotify.com/playlist/6SmcICY21TGSLH4o3ct3Nk?si=7b86b85f5c7e4584'}>mixtape you would make for the person you hate most.</a> &lt;3
                             </p>
 
                             <div className={'message_body_email_attachments'}>
@@ -125,7 +127,7 @@ function Homepage() {
             </WindowBlock>
 
             {/*MP3*/}
-            <WindowBlock header={'MP3 Player'} color={'green'}>
+            <WindowBlock header={'MP3 player'} color={'green'}>
                 <div className={'links'}>
                     <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=254267567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=486000797/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/album/hatemail-2\">hatemail by Pacing</a></iframe>"}} />
                     <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=254267567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=29022724/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/album/hatemail-2\">hatemail by Pacing</a></iframe>"}} />
@@ -135,12 +137,22 @@ function Homepage() {
                 </div>
             </WindowBlock>
 
+            {/*MP3*/}
+            <WindowBlock header={'Sunny <3 music video!'} color={'green'}>
+                <div className={'playlists'}>
+                    <div className='video' dangerouslySetInnerHTML={{ __html: "" +
+                            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0L9gUEWAmK4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
+                    }} />
+                </div>
+            </WindowBlock>
+
             {/*Social*/}
-            <WindowBlock header={'Be My Internet Friend'} color={'blue'}>
+            <WindowBlock header={'Be my internet friend <3'} color={'blue'}>
                 <div className={'links'}>
                     <BigLink name='instagram' img={instagram} link={'https://www.instagram.com/pacingmusic/'} />
                     <BigLink name='youtube' img={youtube} link={'https://www.youtube.com/channel/UCu9Dm575IZ4ICBZ-Bm6B9qw/featured'} />
                     <BigLink name='twitter' img={twitter} link={'https://twitter.com/pacingmusic'} />
+                    <BigLink name='tiktok' img={tiktok} link={'https://www.tiktok.com/@pacingmusic'} />
 
                 </div>
             </WindowBlock>
@@ -155,7 +167,7 @@ function Homepage() {
             </WindowBlock>
 
             {/*Contact*/}
-            <WindowBlock header={'Contact Me'} color={'purple'}>
+            <WindowBlock header={'Contact me'} color={'purple'}>
                 <div className={'text-box--small'}>
                     For sync licensing, collabs, press, EPK access, cat pics:
                 </div>

@@ -134,10 +134,14 @@
       font-size: $font-size-icons;
       color: $grey;
 
-      span {
+      .subjectline {
         font-family: $font-headers;
         color: $text-body;
         margin-left: 2px;
+      }
+
+      .date {
+        float: right;
       }
     }
     &_email {
@@ -171,8 +175,13 @@
 
 .playlists {
   padding: $padding-medium;
+  overflow: hidden;
 
   div {
     margin-bottom: $padding-medium;
   }
+}
+
+.video {
+  text-align: center;
 }
