@@ -112,8 +112,13 @@
       text-decoration: none;
       font-size: $font-size-icons;
 
-      &:first-of-type {
-        color: $brand-primary;
+      &:last-of-type {
+        border-bottom: none;
+      }
+
+      &--selected {
+        color: $white;
+        background: $black;
       }
     }
   }
@@ -161,5 +166,13 @@
         }
       }
     }
+  }
+}
+
+.playlists {
+  padding: $padding-medium;
+
+  div {
+    margin-bottom: $padding-medium;
   }
 }

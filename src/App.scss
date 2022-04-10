@@ -121,12 +121,19 @@ $header-height: 40px;
   }
 }
 
-.text-box-large {
+.text-box--large {
   font-family: $font-headers;
   background: $white;
-  padding: $padding-large;
+  padding: $padding-medium;
   text-align: center;
   font-weight: bold;
+}
+
+.text-box--small {
+  font-family: $font-body;
+  background: $white;
+  padding: $padding-small $padding-small 0 $padding-small;
+  text-align: center;
 }
 
 .footer {
@@ -136,4 +143,9 @@ $header-height: 40px;
   p {
     margin: 0 auto;
   }
+}
+
+.countdown {
+  margin-left: auto;
+  padding-right: $padding-medium;
 }
