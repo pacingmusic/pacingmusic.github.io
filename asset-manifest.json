@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.197ffc00.chunk.css",
-    "main.js": "/static/js/main.cf899fe1.chunk.js",
-    "main.js.map": "/static/js/main.cf899fe1.chunk.js.map",
+    "main.css": "/static/css/main.be762a45.chunk.css",
+    "main.js": "/static/js/main.a79fe060.chunk.js",
+    "main.js.map": "/static/js/main.a79fe060.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f5be0c4d.js",
     "runtime-main.js.map": "/static/js/runtime-main.f5be0c4d.js.map",
     "static/js/2.606df756.chunk.js": "/static/js/2.606df756.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6878ed8e.chunk.js": "/static/js/3.6878ed8e.chunk.js",
     "static/js/3.6878ed8e.chunk.js.map": "/static/js/3.6878ed8e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.197ffc00.chunk.css.map": "/static/css/main.197ffc00.chunk.css.map",
+    "static/css/main.be762a45.chunk.css.map": "/static/css/main.be762a45.chunk.css.map",
     "static/js/2.606df756.chunk.js.LICENSE.txt": "/static/js/2.606df756.chunk.js.LICENSE.txt",
     "static/media/apple.fab06672.png": "/static/media/apple.fab06672.png",
     "static/media/bandcamp.effc70e7.png": "/static/media/bandcamp.effc70e7.png",
@@ -28,13 +28,14 @@
     "static/media/soundcloud.21b11c0d.png": "/static/media/soundcloud.21b11c0d.png",
     "static/media/spotify.47654cd9.png": "/static/media/spotify.47654cd9.png",
     "static/media/studio.47671df3.png": "/static/media/studio.47671df3.png",
+    "static/media/tiktok.f6caf133.png": "/static/media/tiktok.f6caf133.png",
     "static/media/twitter.032995fb.png": "/static/media/twitter.032995fb.png",
     "static/media/youtube.c17c6e8b.png": "/static/media/youtube.c17c6e8b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f5be0c4d.js",
     "static/js/2.606df756.chunk.js",
-    "static/css/main.197ffc00.chunk.css",
-    "static/js/main.cf899fe1.chunk.js"
+    "static/css/main.be762a45.chunk.css",
+    "static/js/main.a79fe060.chunk.js"
   ]
 }
