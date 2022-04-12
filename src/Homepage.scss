@@ -104,6 +104,10 @@
     margin: $padding;
     //padding: $padding;
 
+    @include mobile () {
+      min-width: 80px;
+    }
+
     &_item{
       border-bottom: $border-small;
       padding: $padding;
@@ -142,6 +146,10 @@
 
       .date {
         float: right;
+
+        @include mobile () {
+          display: none;
+        }
       }
     }
     &_email {
