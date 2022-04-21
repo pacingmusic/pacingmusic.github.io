@@ -25,7 +25,7 @@ function App() {
           <span className={"header-item"}>hello world</span>
 
           <span className={"header-item secrets marquee"}>
-              <a href={'https://forms.gle/mqgryP8oW4QVt8zM8'}>
+              <a href={'/angst'}>
                   send me your deepest insecurities
               </a>
           </span>

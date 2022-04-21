@@ -5,13 +5,12 @@ import WindowBlock from '../../components/WindowBlock/WindowBlock';
 
 
 const Secrets = () => (
-  <div className="Secrets">
-      <WindowBlock header={'Sunny <3 music video!'}>
-          <div className={'playlists'}>
-              <div className='video' dangerouslySetInnerHTML={{ __html: "" +
-                  "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0L9gUEWAmK4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
-              }} />
-          </div>
+  <div className="Secrets Homepage">
+      <WindowBlock header={'angst.txt'}>
+          <div className='form' dangerouslySetInnerHTML={{ __html: "" +
+              "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfABRaqF08bU8yEs-3WNhUxaUeNtnb3NgEdinKGCjuMU43WeA/viewform?embedded=true\" " +
+              "width=\"100%\" height=\"1600\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>"
+          }} />
       </WindowBlock>
   </div>
 );
