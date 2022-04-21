@@ -4,13 +4,8 @@ import Secrets from "./components/Secrets/Secrets";
 import DesktopDecor from "./components/DesktopDecor/DesktopDecor";
 import ReactGA from 'react-ga';
 import Countdown from 'react-countdown';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Routes,
-    Route,
-    Link
-} from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
+
 
 function App() {
 
@@ -20,31 +15,36 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-          <nav className="App-header">
-              <Link to={'/'} className={"header-item"}>
-                  😈  hello world
-              </Link>
+        <nav className="App-header">
+            <Link to={'/'} className={"header-item"}>
+                😈  hello world
+            </Link>
 
-              <span className={"header-item marquee"}>
+            <span className={"header-item marquee"}>
               <a href={'/angst'}>
                   send me your deepest insecurities
               </a>
           </span>
 
-              <span className={"header-item countdown"}>
+            <span className={"header-item countdown"}>
               <Countdown date={'2022-05-13T01:00:00'}/>
           </span>
 
-          </nav>
-          <div className={'App-body'}>
-              <Routes>
-                  <Route path="/" element={<Homepage />}></Route>
-                  <Route path="/angst" element={<Secrets />}></Route>
-              </Routes>
-              <DesktopDecor/>
-          </div>
-      </Router>
+        </nav>
+        <div className={'App-body'}>
+            <Routes>
+                <Route exact path="/" element={<Homepage/>} />
+                <Route path="/#/angst" element={<Secrets/>} />
+
+                {/*<Route exact path="/">*/}
+                    {/*<Homepage/>*/}
+                {/*</Route>*/}
+                {/*<Route path="/angst">*/}
+                    {/*<Secrets/>*/}
+                {/*</Route>*/}
+            </Routes>
+            <DesktopDecor/>
+        </div>
     </div>
   );
 }
