@@ -41,7 +41,9 @@ function Homepage() {
                                 My writing has been described as “tongue firmly planted in cheek” (Surviving the Golden Age, 2022), an “off-kilter and wonderfully weird world” (CLOUT, 2022), and “I don’t get it” (multiple sources).
                             </p>
                             <p>
-                                My debut mixtape "<a href={'https://distrokid.com/hyperfollow/pacing/hatemail'}>hatemail</a>" comes out Friday, May 13! “hatemail” is a manifesto of adult angst. It pokes fun at how ridiculous it would sound if you said the mean stuff in your head out loud.
+                                My debut mixtape "<a href={'https://distrokid.com/hyperfollow/pacing/hatemail'}>hatemail</a>" comes out Friday, May 13!
+                                “hatemail” is a manifesto of adult angst. It pokes fun at how ridiculous it would sound if you
+                                said <a href={'/angst'}>the mean stuff</a> in your head out loud.
                             </p>
                         </div>
                     </div>
@@ -123,6 +125,19 @@ function Homepage() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </WindowBlock>
+
+            {/*Contact*/}
+            <WindowBlock header={'Send me your deepest insecurities'} color={'purple'}>
+                <div className={'text-box--small'}>
+                    Tell me the mean things you say to yourself in your head and I will put them in a music video!
+                    <br/>Don't worry, it's totally anonymous.
+                </div>
+                <div className={'text-box--large'}>
+                    <a href={'/angst'}>
+                        pacingmusic.com/angst
+                    </a>
                 </div>
             </WindowBlock>
 

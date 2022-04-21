@@ -20,22 +20,23 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-          <span className={"header-item"}>😈</span>
-          <span className={"header-item"}>hello world</span>
+      <Router>
+          <nav className="App-header">
+              <Link to={'/'} className={"header-item"}>
+                  😈  hello world
+              </Link>
 
-          <span className={"header-item secrets marquee"}>
+              <span className={"header-item marquee"}>
               <a href={'/angst'}>
                   send me your deepest insecurities
               </a>
           </span>
 
-          <span className={"header-item countdown"}>
+              <span className={"header-item countdown"}>
               <Countdown date={'2022-05-13T01:00:00'}/>
           </span>
 
-      </header>
-      <Router>
+          </nav>
           <div className={'App-body'}>
               <Routes>
                   <Route path="/" element={<Homepage />}></Route>
