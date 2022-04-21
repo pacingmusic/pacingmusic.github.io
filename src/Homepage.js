@@ -43,7 +43,7 @@ function Homepage() {
                             <p>
                                 My debut mixtape "<a href={'https://distrokid.com/hyperfollow/pacing/hatemail'}>hatemail</a>" comes out Friday, May 13!
                                 “hatemail” is a manifesto of adult angst. It pokes fun at how ridiculous it would sound if you
-                                said <a href={'/angst'}>the mean stuff</a> in your head out loud.
+                                said <a href={'/#/angst'}>the mean stuff</a> in your head out loud.
                             </p>
                         </div>
                     </div>
@@ -135,8 +135,8 @@ function Homepage() {
                     <br/>Don't worry, it's totally anonymous.
                 </div>
                 <div className={'text-box--large'}>
-                    <a href={'/angst'}>
-                        pacingmusic.com/angst
+                    <a href={'/#/angst'}>
+                        pacingmusic.com/#/angst
                     </a>
                 </div>
             </WindowBlock>
