@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Secrets = () => (
   <div className="Secrets Homepage">
-      <WindowBlock header={'angst.txt'} color={'blue'}>
+      <WindowBlock header={'anxiety.txt'} color={'blue'}>
           <div className={'text-box--small'}>
               <Link to={'/'} className={"text-link"}>
                   back

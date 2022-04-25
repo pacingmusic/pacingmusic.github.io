@@ -21,7 +21,7 @@ function App() {
             </Link>
 
             <span className={"header-item marquee"}>
-              <a href={'/#/angst'}>
+              <a href={'/#/anxiety'}>
                   send me your deepest insecurities
               </a>
           </span>
@@ -34,6 +34,7 @@ function App() {
         <div className={'App-body'}>
             <Routes>
                 <Route exact path="/" element={<Homepage/>} />
+                <Route path="/anxiety" element={<Secrets/>} />
                 <Route path="/angst" element={<Secrets/>} />
 
                 {/*<Route exact path="/">*/}
