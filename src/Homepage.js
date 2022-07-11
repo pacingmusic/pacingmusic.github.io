@@ -26,7 +26,7 @@ function Homepage() {
                         <div className={'intro-pic__desc'}>Musician / Band</div>
                         <div className={'intro-pic__desc'}>Pittsburgh, PA</div>
                         <div className={'intro-pic__desc'}>
-                            <a href={'https://distrokid.com/hyperfollow/pacing/hatemail'}>+ Be My BFF</a>
+                            <a href={'https://streamlink.to/hatemail'}>+ Be My BFF</a>
                         </div>
                     </div>
                     <div className={'intro-text-box'}>
@@ -41,9 +41,8 @@ function Homepage() {
                                 My writing has been described as “tongue firmly planted in cheek” (Surviving the Golden Age, 2022), an “off-kilter and wonderfully weird world” (CLOUT, 2022), and “I don’t get it” (multiple sources).
                             </p>
                             <p>
-                                My debut mixtape "<a href={'https://distrokid.com/hyperfollow/pacing/hatemail'}>hatemail</a>" comes out Friday, May 13!
-                                “hatemail” is a manifesto of adult angst. It pokes fun at how ridiculous it would sound if you
-                                said <a href={'/#/angst'}>the mean stuff</a> in your head out loud.
+                                My debut mixtape "<a href={'https://streamlink.to/hatemail'}>hatemail</a>" is out now!
+                                Since I've shared all my deepest insecurities with you, it's only fair that you <a href={'/#/angst'}>send me yours</a>.
                             </p>
                         </div>
                     </div>
@@ -118,26 +117,13 @@ function Homepage() {
                             <div className={'message_body_email_attachments'}>
                                 Attachments:
                                 <div className={'links'}>
-                                    <BigLink name='preorder' img={bandcamp} link={'https://pacingmusic.bandcamp.com/album/hatemail-2'} />
-                                    <BigLink name='presave' img={spotify} link={'https://distrokid.com/hyperfollow/pacing/hatemail'} />
+                                    <BigLink name='buy it' img={bandcamp} link={'https://pacingmusic.bandcamp.com/album/hatemail-2'} />
+                                    <BigLink name='stream it' img={spotify} link={'https://streamlink.to/hatemail'} />
                                     <img className={'cover'} src={hatemail} />
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </WindowBlock>
-
-            {/*Contact*/}
-            <WindowBlock header={'Send me your deepest insecurities'} color={'purple'}>
-                <div className={'text-box--small'}>
-                    Tell me the mean things you say to yourself in your head and I will put them in a music video!
-                    <br/>Don't worry, it's totally anonymous.
-                </div>
-                <div className={'text-box--large'}>
-                    <a href={'/#/angst'}>
-                        pacingmusic.com/#/angst
-                    </a>
                 </div>
             </WindowBlock>
 
@@ -149,15 +135,6 @@ function Homepage() {
                     <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3166585439/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/album/june-tinfoil-hat-song\">June / Tinfoil Hat Song by Pacing</a></iframe>"}} />
                     {/*<div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/track=2612382935/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/track/snow\">Snow by Pacing</a></iframe>"}} />*/}
                     {/*<div dangerouslySetInnerHTML={{ __html: "<iframe src='https://www.youtube.com/embed/cWDJoK8zw58' />"}} />*/}
-                </div>
-            </WindowBlock>
-
-            {/*MP3*/}
-            <WindowBlock header={'Sunny <3 music video!'}>
-                <div className={'playlists'}>
-                    <div className='video' dangerouslySetInnerHTML={{ __html: "" +
-                            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0L9gUEWAmK4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
-                    }} />
                 </div>
             </WindowBlock>
 

@@ -3,7 +3,6 @@ import Homepage from "./Homepage";
 import Secrets from "./components/Secrets/Secrets";
 import DesktopDecor from "./components/DesktopDecor/DesktopDecor";
 import ReactGA from 'react-ga';
-import Countdown from 'react-countdown';
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 
@@ -24,10 +23,6 @@ function App() {
               <a href={'/#/angst'}>
                   send me your deepest insecurities
               </a>
-          </span>
-
-            <span className={"header-item countdown"}>
-              <Countdown date={'2022-05-13T01:00:00'}/>
           </span>
 
         </nav>
