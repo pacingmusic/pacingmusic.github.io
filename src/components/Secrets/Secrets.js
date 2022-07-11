@@ -27,7 +27,7 @@ const Secrets = () => (
                             </p>
                             <p>
                               <a href="https://dustyorgan.com/" target="_blank">
-                                Watch the premeire of the Who has ADHD now lol on Dusty Organ on July 12, 2022.
+                                Watch the premeire of the Who has ADHD now lol on Dusty Organ on July 13, 2022.
                               </a>
                             </p>
                             <p>Hear all <em>my</em> deepest insecurities in my debut mixtape <a href="https://streamlink.to/hatemail" target="_blank">
