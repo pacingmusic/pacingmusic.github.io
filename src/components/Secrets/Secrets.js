@@ -37,6 +37,17 @@ const Secrets = () => (
                                  hatemail.
                               </a>
                             </p>
+
+                            <div className={'message_body_email_attachments'}>
+                                Attachments:
+                      
+                                <div className='video' dangerouslySetInnerHTML={{ __html: "" +
+                            "<iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/wbhXwZdr5uc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
+                    }} />
+                            </div>
+
+                    
+                
                         </div>
                     </div>
                 </div>
