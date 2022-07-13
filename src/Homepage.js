@@ -133,7 +133,7 @@ function Homepage() {
                     }} />
                 </div>
                 <div className={'text-box--small text-box--inline'}>
-                    Watch the premeire and read more about this project on <a href="https://dustyorgan.com/2022/07/12/premiere-indie-singer-songwriter-pacing-turns-insecurities-into-a-collage-for-new-music-video-for-who-has-adhd-now-lol/" target="_blank">dustyorgan.com</a>
+                    Watch the premiere and read more about this project on <a href="https://dustyorgan.com/2022/07/12/premiere-indie-singer-songwriter-pacing-turns-insecurities-into-a-collage-for-new-music-video-for-who-has-adhd-now-lol/" target="_blank">dustyorgan.com</a>
                 </div>
             </WindowBlock>
 

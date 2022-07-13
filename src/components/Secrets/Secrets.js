@@ -30,7 +30,7 @@ const Secrets = () => (
                             </p>
                             <p>
                               <a href="https://dustyorgan.com/2022/07/12/premiere-indie-singer-songwriter-pacing-turns-insecurities-into-a-collage-for-new-music-video-for-who-has-adhd-now-lol/" target="_blank">
-                                Watch the premeire of the "Who has ADHD now lol" music video on Dusty Organ music blog.
+                                Watch the premiere of the "Who has ADHD now lol" music video on Dusty Organ.
                               </a>
                             </p>
                             <p>Hear all <em>my</em> deepest insecurities in my debut mixtape <a href="https://streamlink.to/hatemail" target="_blank">
