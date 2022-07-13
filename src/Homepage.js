@@ -126,6 +126,18 @@ function Homepage() {
             </WindowBlock>
 
             {/*MP3*/}
+            <WindowBlock header={'Who has ADHD now lol (official music video!)'} color={'blue'}>
+                <div className={'playlists'}>
+                    <div className='video' dangerouslySetInnerHTML={{ __html: "" +
+                            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wbhXwZdr5uc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
+                    }} />
+                </div>
+                <div className={'text-box--small text-box--inline'}>
+                    Watch the premeire and read more about this project on <a href="https://dustyorgan.com/2022/07/12/premiere-indie-singer-songwriter-pacing-turns-insecurities-into-a-collage-for-new-music-video-for-who-has-adhd-now-lol/" target="_blank">dustyorgan.com</a>
+                </div>
+            </WindowBlock>
+
+            {/*MP3*/}
             <WindowBlock header={'MP3 player'} color={'green'}>
                 <div className={'links'}>
                     <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=254267567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=486000797/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/album/hatemail-2\">hatemail by Pacing</a></iframe>"}} />
