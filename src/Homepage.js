@@ -40,7 +40,7 @@ function Homepage() {
                             <p>
                                 My writing has been described as “tongue firmly planted in cheek” (Surviving the Golden Age, 2022), an “off-kilter and wonderfully weird world” (CLOUT, 2022), and “I don’t get it” (multiple sources).
                             </p>
-                            <p>The best ways to keep up with what I'm up to is to join my <a href={'/#/angst'}>email list</a> where I send exciting things like shitty poetry, cat pics, and secrets.</p>
+                            <p>The best ways to keep up with what I'm up to is to join my <a href="https://forms.gle/HskmFwXGSJ6QDtvt5" target="_blank">email list</a> where I send exciting things like shitty poetry, cat pics, and secrets.</p>
                         </div>
                     </div>
                 </div>
