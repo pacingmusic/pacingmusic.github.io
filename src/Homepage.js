@@ -18,15 +18,15 @@ function Homepage() {
         <div className="Homepage">
 
             {/*Intro*/}
-            <WindowBlock header={'Welcome to my little world'}>
+            <WindowBlock header={'hello world'}>
                 <div className={'intro'}>
                     <div className={'intro-pic'}>
                         <img src={headshot} className={'intro-pic--pic'}/>
                         <div className={'intro-pic__name'}>Pacing</div>
                         <div className={'intro-pic__desc'}>Musician / Band</div>
-                        <div className={'intro-pic__desc'}>Pittsburgh, PA</div>
+                        <div className={'intro-pic__desc'}>San Jose, CA</div>
                         <div className={'intro-pic__desc'}>
-                            <a href={'https://streamlink.to/hatemail'}>+ Be My BFF</a>
+                            <a href={'https://forms.gle/HskmFwXGSJ6QDtvt5'}>+ Be My BFF</a>
                         </div>
                     </div>
                     <div className={'intro-text-box'}>
@@ -40,15 +40,14 @@ function Homepage() {
                             <p>
                                 My writing has been described as “tongue firmly planted in cheek” (Surviving the Golden Age, 2022), an “off-kilter and wonderfully weird world” (CLOUT, 2022), and “I don’t get it” (multiple sources).
                             </p>
-                            <p>My debut mixtape "<a href={'https://streamlink.to/hatemail'}>hatemail</a>" is out now!
-                                Since I've shared all my deepest insecurities with you, it's only fair that you <a href={'/#/angst'}>send me yours</a>.</p>
+                            <p>The best ways to keep up with what I'm up to is to join my <a href={'/#/angst'}>email list</a> where I send exciting things like shitty poetry, cat pics, and secrets.</p>
                         </div>
                     </div>
                 </div>
             </WindowBlock>
 
             {/*Links*/}
-            <WindowBlock header={'Find my music'} color={'blue'}>
+            <WindowBlock header={'find my music'} color={'blue'}>
                 <div className={'links'}>
                     <BigLink name='bandcamp' img={bandcamp} link={'https://pacingmusic.bandcamp.com'} />
                     <BigLink name='spotify' img={spotify} link={'https://open.spotify.com/artist/7mJOp9EcXEdAH6TL36flXw?si=CNLQNti2RWS1EOWVD17USQ'} />
@@ -59,7 +58,7 @@ function Homepage() {
             </WindowBlock>
 
             {/*Intro*/}
-            <WindowBlock header={'My debut mixtape: hatemail'}>
+            <WindowBlock header={'hatemail (2022)'}>
                 <div className={'message'}>
                     <div className={'message_sidebar'}>
                         <div className={'message_sidebar_item'}>
@@ -126,30 +125,24 @@ function Homepage() {
             </WindowBlock>
 
             {/*MP3*/}
-            <WindowBlock header={'Who has ADHD now lol (official music video!)'} color={'blue'}>
+            <WindowBlock header={'Aliens [official music video])'} color={'blue'}>
                 <div className={'playlists'}>
                     <div className='video' dangerouslySetInnerHTML={{ __html: "" +
-                            "<iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/wbhXwZdr5uc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
+                            "<iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/3wP5sxIV7Ag\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
                     }} />
-                </div>
-                <div className={'text-box--small text-box--inline'}>
-                    Watch the premiere and read more about this project on <a href="https://dustyorgan.com/2022/07/12/premiere-indie-singer-songwriter-pacing-turns-insecurities-into-a-collage-for-new-music-video-for-who-has-adhd-now-lol/" target="_blank">dustyorgan.com</a>
                 </div>
             </WindowBlock>
 
             {/*MP3*/}
             <WindowBlock header={'MP3 player'} color={'green'}>
-                <div className={'links'}>
-                    <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=254267567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=486000797/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/album/hatemail-2\">hatemail by Pacing</a></iframe>"}} />
-                    <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=254267567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=29022724/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/album/hatemail-2\">hatemail by Pacing</a></iframe>"}} />
-                    <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3166585439/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/album/june-tinfoil-hat-song\">June / Tinfoil Hat Song by Pacing</a></iframe>"}} />
-                    {/*<div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border: 0; width: 200px; height: 342px;\" src=\"https://bandcamp.com/EmbeddedPlayer/track=2612382935/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/\" seamless><a href=\"https://pacingmusic.bandcamp.com/track/snow\">Snow by Pacing</a></iframe>"}} />*/}
-                    {/*<div dangerouslySetInnerHTML={{ __html: "<iframe src='https://www.youtube.com/embed/cWDJoK8zw58' />"}} />*/}
-                </div>
+                <div className={'playlists'}>
+                    <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/1itIRGcAQ3301z4Mfeb9PU?utm_source=generator&theme=0\" width=\"100%\" height=\"500\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe>"}} />
+                    
+                 </div>
             </WindowBlock>
 
             {/*Social*/}
-            <WindowBlock header={'Be my internet friend <3'} color={'blue'}>
+            <WindowBlock header={'be my internet friend <3'} color={'blue'}>
                 <div className={'links'}>
                     <BigLink name='instagram' img={instagram} link={'https://www.instagram.com/pacingmusic/'} />
                     <BigLink name='youtube' img={youtube} link={'https://www.youtube.com/channel/UCu9Dm575IZ4ICBZ-Bm6B9qw/featured'} />
@@ -158,23 +151,20 @@ function Homepage() {
 
                 </div>
             </WindowBlock>
-
-            {/*MP3*/}
-            <WindowBlock header={'Weirdly specific playlists'} color={'green'}>
-                <div className={'playlists'}>
-                    <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6SmcICY21TGSLH4o3ct3Nk?utm_source=generator\" width=\"100%\" height=\"80\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe>"}} />
-                    <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/58vWvsVh9r9Eo9Jal8SPQu?utm_source=generator\" width=\"100%\" height=\"80\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe>"}} />
-                    <div className='mp3' dangerouslySetInnerHTML={{ __html: "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0qwVuQSDwZ4spFARvzanUR?utm_source=generator\" width=\"100%\" height=\"80\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe>"}} />
-                </div>
-            </WindowBlock>
+            
 
             {/*Contact*/}
-            <WindowBlock header={'Contact me'} color={'purple'}>
+            <WindowBlock header={'contact me'} color={'purple'}>
                 <div className={'text-box--small'}>
                     For sync licensing, collabs, press, EPK access, cat pics:
                 </div>
                 <div className={'text-box--large'}>
                     pacingband@gmail.com
+                </div>
+                <div className={'text-box--small'}>
+                    <a href="https://forms.gle/HskmFwXGSJ6QDtvt5">Join my email list</a>
+                </div>
+                <div className={'text-box--large'}>
                 </div>
             </WindowBlock>
 

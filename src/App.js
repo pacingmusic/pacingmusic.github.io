@@ -16,14 +16,8 @@ function App() {
     <div className="App">
         <nav className="App-header">
             <Link to={'/'} className={"header-item"}>
-                😈  hello world
+                Real poetry is always about plants and birds and trees and the animals and milk and honey breathing in the pink but real life is behind the screen
             </Link>
-
-            <span className={"header-item marquee"}>
-              <a href={'/#/anxiety'}>
-                  send me your deepest insecurities
-              </a>
-          </span>
 
         </nav>
         <div className={'App-body'}>
