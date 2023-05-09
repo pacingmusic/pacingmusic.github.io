@@ -14,12 +14,6 @@ function App() {
 
   return (
     <div className="App">
-        <nav className="App-header">
-            <Link to={'/'} className={"header-item"}>
-                Real poetry is always about plants and birds and trees and the animals and milk and honey breathing in the pink but real life is behind the screen
-            </Link>
-
-        </nav>
         <div className={'App-body'}>
             <Routes>
                 <Route exact path="/" element={<Homepage/>} />
