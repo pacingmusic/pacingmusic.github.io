@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, Component} from 'react';
 import PropTypes from 'prop-types';
 import './Secrets2.scss';
 import WindowBlock from '../../components/WindowBlock/WindowBlock';
@@ -211,8 +211,11 @@ const listOfSecrets = [
 ];
 
 
-const Secrets2 = () => (
-  <div className="Secrets2 Homepage">
+
+export default class Secrets2 extends Component {
+  render() {
+    return(
+      <div className="Secrets2 Homepage">
 
       {/*Intro*/}
             <WindowBlock header={'anxiety.place'}>
@@ -276,22 +279,21 @@ const Secrets2 = () => (
 
       <div className="listOfSecrets">
         {listOfSecrets.map( card => (
-                          <div key={''} className={'secret'}>
+                          <div key={card.timestamp} id={card.timestamp} className={'secret'}>
                             <div className={'message'}>
                               <div className={'message_body'}>
                                 <div className={'message_body_subject'}>{card.timestamp}</div>
                                 <div className={'message_body_email'}>{card.entry}</div>
+                                <div className={'message_body_email_attachments'}>
+                                  <button>delete</button>
+                                </div>
                               </div>
                             </div>
                           </div>
-                      ))}
+        ))}
 
         </div>
       </div>
-);
-
-Secrets2.propTypes = {};
-
-Secrets2.defaultProps = {};
-
-export default Secrets2;
+      );
+  }
+}
