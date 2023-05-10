@@ -26,11 +26,6 @@ const listOfSecrets = [
         "response": "fuck that!!!!!"
     },
     {
-        "timestamp": "2022-04-25T15:53:50.686Z",
-        "entry": "test",
-        "response": "fuck that!!!!!"
-    },
-    {
         "timestamp": "2022-05-01T03:43:42.141Z",
         "entry": "you’ll never make it in the industry\nyou’re not talented \nyou’re selfish\nyour friends actually hate you\nyou’re boring ",
         "response": "fuck that!!!!!"
@@ -53,10 +48,6 @@ const listOfSecrets = [
     {
         "timestamp": "2022-04-30T05:02:46.407Z",
         "entry": "Acting weird in front of others\nmy weight\nI'm not productive enough\nI'm not good enough\nI'm too emotional",
-        "response": "fuck that!!!!!"
-    },
-    {
-        "timestamp": "2022-04-21T21:45:34.762Z",
         "response": "fuck that!!!!!"
     },
     {
@@ -340,6 +331,10 @@ export default class Secrets2 extends Component {
 
                             <p>
                               &#60;3 Pacing
+                            </p>
+
+                            <p>
+                              -----------
                             </p>
 
                             <p>
