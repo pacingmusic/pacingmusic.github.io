@@ -1,4 +1,4 @@
-import {React, Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './Secrets2.scss';
 import WindowBlock from '../../components/WindowBlock/WindowBlock';
@@ -211,8 +211,25 @@ const listOfSecrets = [
 ];
 
 
-
 export default class Secrets2 extends Component {
+
+  constructor() {
+        super();
+
+        this.destroyAnxiety = this.destroyAnxiety.bind(this);
+}
+
+  destroyAnxiety(id) {
+    let deepestInsecurity = document.getElementById(id);
+    deepestInsecurity.classList.add('explode');
+
+    setTimeout(function(){
+    deepestInsecurity.classList.remove('explode');
+    deepestInsecurity.classList.add('exploded');
+    }, 2000);    
+
+  }
+
   render() {
     return(
       <div className="Secrets2 Homepage">
@@ -267,6 +284,8 @@ export default class Secrets2 extends Component {
                             <p>
                               &#60;3 Pacing
                             </p>
+
+
                             
                             <p>Hear all <em>my</em> deepest insecurities in my debut mixtape <a href="https://streamlink.to/hatemail" target="_blank">
                                  hatemail.
@@ -285,7 +304,7 @@ export default class Secrets2 extends Component {
                                 <div className={'message_body_subject'}>{card.timestamp}</div>
                                 <div className={'message_body_email'}>{card.entry}</div>
                                 <div className={'message_body_email_attachments'}>
-                                  <button>delete</button>
+                                  <button className='delete' onClick={() => { this.destroyAnxiety(card.timestamp); }}>delete</button>
                                 </div>
                               </div>
                             </div>
