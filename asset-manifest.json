@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ce21b1a.chunk.css",
-    "main.js": "/static/js/main.ded1151f.chunk.js",
-    "main.js.map": "/static/js/main.ded1151f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4c52fc27.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4c52fc27.js.map",
-    "static/js/2.576c24c2.chunk.js": "/static/js/2.576c24c2.chunk.js",
-    "static/js/2.576c24c2.chunk.js.map": "/static/js/2.576c24c2.chunk.js.map",
-    "static/js/3.4ad0f6b9.chunk.js": "/static/js/3.4ad0f6b9.chunk.js",
-    "static/js/3.4ad0f6b9.chunk.js.map": "/static/js/3.4ad0f6b9.chunk.js.map",
+    "main.css": "/static/css/main.8e425109.chunk.css",
+    "main.js": "/static/js/main.ab33fe9e.chunk.js",
+    "main.js.map": "/static/js/main.ab33fe9e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf751403.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf751403.js.map",
+    "static/js/2.1eb3b4e8.chunk.js": "/static/js/2.1eb3b4e8.chunk.js",
+    "static/js/2.1eb3b4e8.chunk.js.map": "/static/js/2.1eb3b4e8.chunk.js.map",
+    "static/js/3.8c532b0e.chunk.js": "/static/js/3.8c532b0e.chunk.js",
+    "static/js/3.8c532b0e.chunk.js.map": "/static/js/3.8c532b0e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6ce21b1a.chunk.css.map": "/static/css/main.6ce21b1a.chunk.css.map",
-    "static/js/2.576c24c2.chunk.js.LICENSE.txt": "/static/js/2.576c24c2.chunk.js.LICENSE.txt",
+    "static/css/main.8e425109.chunk.css.map": "/static/css/main.8e425109.chunk.css.map",
+    "static/js/2.1eb3b4e8.chunk.js.LICENSE.txt": "/static/js/2.1eb3b4e8.chunk.js.LICENSE.txt",
     "static/media/apple.fab06672.png": "/static/media/apple.fab06672.png",
     "static/media/bandcamp.effc70e7.png": "/static/media/bandcamp.effc70e7.png",
     "static/media/bird.a54d636e.png": "/static/media/bird.a54d636e.png",
     "static/media/cd.9d1ef69b.png": "/static/media/cd.9d1ef69b.png",
     "static/media/cover_hatemail-front--webres.730902cf.jpeg": "/static/media/cover_hatemail-front--webres.730902cf.jpeg",
+    "static/media/Secrets2.scss": "/static/media/explosion.57877f38.gif",
     "static/media/family.334b75b3.png": "/static/media/family.334b75b3.png",
     "static/media/headshot.3235a625.jpg": "/static/media/headshot.3235a625.jpg",
     "static/media/instagram.d4e71446.png": "/static/media/instagram.d4e71446.png",
@@ -33,9 +34,9 @@
     "static/media/youtube.c17c6e8b.png": "/static/media/youtube.c17c6e8b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c52fc27.js",
-    "static/js/2.576c24c2.chunk.js",
-    "static/css/main.6ce21b1a.chunk.css",
-    "static/js/main.ded1151f.chunk.js"
+    "static/js/runtime-main.cf751403.js",
+    "static/js/2.1eb3b4e8.chunk.js",
+    "static/css/main.8e425109.chunk.css",
+    "static/js/main.ab33fe9e.chunk.js"
   ]
 }
