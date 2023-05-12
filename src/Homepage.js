@@ -110,6 +110,9 @@ function Homepage() {
                             <p>
                                 I like to think this is the <a href={'https://open.spotify.com/playlist/6SmcICY21TGSLH4o3ct3Nk?si=7b86b85f5c7e4584'}>mixtape you would make for the person you hate most.</a> &lt;3
                             </p>
+                            <p>
+                                PS. Visit <a href={'/#/anxiety'}>anxiety.place</a> to anonymously share your deepest insecurities.
+                            </p>
 
                             <div className={'message_body_email_attachments'}>
                                 Attachments:
